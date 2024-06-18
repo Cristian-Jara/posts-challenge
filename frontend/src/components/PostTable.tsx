@@ -145,19 +145,17 @@ function PostTable() {
       title: "Actions",
       key: "actions",
       render: (record) => (
-        <>
-          <Popconfirm
-            title="Are you sure?"
-            onConfirm={() => deletePost(record.id)}
-            okText="Yes"
-            cancelText="No"
-            disabled={isLoading}
-          >
-            <Button type="primary" danger>
-              Delete
-            </Button>
-          </Popconfirm>
-        </>
+        <Popconfirm
+          title="Are you sure?"
+          onConfirm={() => deletePost(record.id)}
+          okText="Yes"
+          cancelText="No"
+          disabled={isLoading}
+        >
+          <Button type="primary" danger>
+            Delete
+          </Button>
+        </Popconfirm>
       ),
       width: 100,
     },
