@@ -7,7 +7,7 @@
 
 ## Previous Configuration
 
-3. Configure the database connection in the `.env` file, by default it takes http://127.0.0.1:3000. So if you don't modify anything in the backend, this step is unnecessary.
+3. Configure the backend host in the `.env` file, by default it takes http://127.0.0.1:3000.
 
 ## Running the Application
 

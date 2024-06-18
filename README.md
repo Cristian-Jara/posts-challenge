@@ -22,7 +22,7 @@ You can find details of configuration on each environment, but in a nutshell, th
 
   1. Install Node.js and npm.
   2. Install the project dependencies using `npm install`.
-  3. _(Optional)_ Configure the database connection in the `.env` file, by default it's take http://127.0.0.1:3000. So if you don't modify anything in the backend this step is unnecessary.
+  3. _(Optional)_ Configure the backend host in the `.env` file, by default it's take http://127.0.0.1:3000.
   4. Run the application using `npm run dev`.
 
 Feel free to reach out if you have any further questions.
