@@ -1,31 +1,21 @@
 # README
 
-This README would normally document whatever steps are necessary to get the
-application up and running.
-
-Things you may want to cover:
-
 - Ruby version
   3.3.3
 
 - System dependencies
 
+  - Install Ruby 3.3.3, Rails 7.1.3.4 and Docker.
+  - Install the project dependencies using bundle install.
+
 - Configuration
 
-* To connect to database in PostgreSQL is necessary to run the docker compose with the following command:
+  - To connect to database in PostgreSQL is necessary to run the docker compose with the following command:
 
-  - `docker-compose -f docker-compose.dev.yml up -d`
+    - `docker-compose -f docker-compose.dev.yml up -d`
 
-* That create a default database. If you want you can use .env.erb configuration file to run this app for testing/development purposes. Only copy and paste that information in your environment configuration file ( .env file ).
+  - That create a default database. If you want you can use .env.erb configuration file to run this app for testing/development purposes. Only copy and paste that information in your environment configuration file ( .env file ). If you don't modify anything this step is unnecessary.
 
-- Database creation
+- How to run the app
 
-- Database initialization
-
-- How to run the test suite
-
-- Services (job queues, cache servers, search engines, etc.)
-
-- Deployment instructions
-
-- ...
+  - With the previous steps you just have to run `bin/rails server` and that's it.
